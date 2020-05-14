@@ -56,6 +56,9 @@
     "time-grunt": "latest"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-table": "^0.3.1",
     "colors": "^1.1.2",
     "electron": "^3.0.13",
     "express": "^4.16.2",
@@ -66,6 +69,7 @@
     "lodash": "^4.17.11",
     "moment": "latest",
     "request": "^2.88.0",
+    "request-promise": "^4.2.5",
     "rrule": "^2.6.2",
     "rrule-alt": "^2.2.8",
     "simple-git": "^1.85.0",
