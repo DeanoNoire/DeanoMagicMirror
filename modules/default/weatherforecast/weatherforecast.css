@@ -1,6 +1,15 @@
+.weatherforecast {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .weatherforecast .day {
   padding-left: 0;
   padding-right: 25px;
+}
+
+.weatherforecast header {
+  display: none;
+  
 }
 
 .weatherforecast .weather-icon {
@@ -9,6 +18,7 @@
 }
 
 .weatherforecast .min-temp {
+  display:none;
   padding-left: 20px;
   padding-right: 0;
 }

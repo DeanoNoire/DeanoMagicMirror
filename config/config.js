@@ -26,7 +26,7 @@ var config = {
 	units: "metric",
 
 	modules: [
-	
+
 	{
 		module:"MMM-DumpsterDay",
   		position:"lower_third"
@@ -77,12 +77,26 @@ var config = {
 		},
 
 		{
+			module: "MMM-NowPlayingOnSpotify",
+			position: "upper_third",
+		  
+			config: {
+			  clientID: "a8e5fc271bba4042beb947cbc5bc9940",
+			  clientSecret: "e7e141a74d2f449bb241d352944f22ae",
+			  accessToken: "BQAEDQKldiLYKbkwhoI-gufOL4NhoKnZ0PFguk8yMff6wYTi2h2XCCbu9koKoFEP54G3yLx2jHPwGL6KBRoJrVgD92UzagNk0uAjuUpySZ7MXqQN4lGY0W4AjIchEFcUolRisSqeGRDdaHC6ubGMEYGohVk",
+			  refreshToken: "AQCkmS9TzTBS-pqB3zCXAC5xASWrpL34QKGFNt_kpMZs9QlqHZn6GyYl-qECHXit5Gv0BKs4XRJNfImJII9vKjM3PJcLo0zayGW2xVQlSC6W10UnGOmrRRfRV0WBWCb4kX4"
+			}
+		  },
+			 
+		  
+/*
+		{
 			module:"MMM-HonorKills",
 			  position:"top_right"
 			},
-
+*/
 			
-		/*{
+		{
 			module: "weatherforecast",
 			position: "top_right",
 			header: "Weather Forecast",
@@ -91,7 +105,7 @@ var config = {
 				locationID: "3074967",
 				appid: "b40d141a572cc142fb3adb990da1d7c6"
 			}
-		},*/
+		},
 		{
 			module: "newsfeed",
 			position: "bottom_bar",

@@ -15,14 +15,14 @@ Module.register("weatherforecast",{
 		locationID: false,
 		appid: "",
 		units: config.units,
-		maxNumberOfDays: 7,
-		showRainAmount: false,
+		maxNumberOfDays: 5,
+		showRainAmount: true,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,
 		timeFormat: config.timeFormat,
 		lang: config.language,
 		decimalSymbol: ".",
-		fade: false,
+		fade: true,
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		colored: false,
 		scale: false,
@@ -36,7 +36,7 @@ Module.register("weatherforecast",{
 
 		appendLocationNameToHeader: true,
 		calendarClass: "calendar",
-		tableClass: "small",
+		tableClass: "middle",
 
 		roundTemp: false,
 
