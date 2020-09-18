@@ -93,8 +93,8 @@ var config = {
 		{
 			module:"MMM-HonorKills",
 			  position:"top_right"
-			},
-*/
+			},*/
+
 			
 		{
 			module: "weatherforecast",
